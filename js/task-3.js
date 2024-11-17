@@ -1,11 +1,3 @@
-// const sortByDescendingFriendCount = (users) => {
-//     return users.map(el => {
-//         return el.name.toSorted((currEl, nextEl) => {
-//             return nextEl.friends.length - currEl.friends.length
-//         })
-//     })
-// }
-
 const sortByDescendingFriendCount = (users) => {
     return users.toSorted((currEl, nextEl) => nextEl.friends.length - currEl.friends.length)
 }
